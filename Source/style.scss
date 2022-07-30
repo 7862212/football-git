@@ -1,0 +1,155 @@
+@import "_reset.scss";
+
+body{
+	height: 100%;
+	font-size: 14px;
+	color: #000000;
+	font-weight: 500;
+	font-family: Montserrat;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.title {
+	background-color: rgb(101, 200, 239);
+	font-size: 25px;
+	text-transform: uppercase;
+	color: blue;
+	text-align: center;
+	padding: 10px;
+}
+
+.header {
+
+		// .header__container
+		&__container {
+		}
+
+		// .header__title
+		&__title {
+		}
+}
+
+.main-unit {
+
+	// .main-unit__container
+	&__container {}
+
+	// .main-unit__football
+	&__football {
+		background: url(../img/fon.jpg) left;
+	}
+}
+
+.football {
+
+	// .football__menu
+	&__menu {
+		float: left;
+		width: 25%;
+		padding: 20px;
+	}
+
+	// .football__sports
+	&__sports {
+		font-size: 25px;
+		font-weight: 800;
+		margin-bottom: 15px;
+	}
+
+	// .football__navigation
+	&__navigation {}
+
+	// .football__list
+	&__list {}
+
+	&__list li {
+		list-style: disc;
+		color: black;
+		margin-left: 20px;
+	}
+
+	// .football__item
+	&__item {
+		font-size: 18px;
+		color: blue;
+	}
+
+	&__item a:link {
+		color: #00f; //не посещеннуая ссылка
+		text-decoration: underline;
+	}
+
+	&__item a:visited {
+		color: rgb(147, 54, 228); //пользователь уже посетил
+	}
+
+	&__item a:hover {
+		color: #f00; //наводит курсор на элемент
+		text-decoration: none;
+	}
+
+	&__item a:active {
+			color: #000; //нажатию на кнопку мыши
+	}
+	
+	// .football__menu-clear
+		&__menu-clear {
+		}
+
+	// .football__content
+	&__content {
+		margin: 5px 0 0 25%;
+		background: linear-gradient(right, rgba(255, 255, 255, 0.8) 0 100%), url(../img/01.jpg) right repeat-y;
+		background-size: 9%;
+	}
+
+	// .football__title
+	&__title {
+		text-align: center;
+		font-size: 20px;
+		font-weight: 800;
+		padding: 10px;
+		text-transform: uppercase;
+	}
+
+	// .football__description
+	&__description {
+		padding: 5px 15px 15px 15px;
+	}
+
+	// .football__image
+	&__image {
+		width: 280px;
+		margin: 0 20px 0 0;
+		float: left;
+	}
+
+	// .football__text
+	&__text {
+		font-size: 20px;
+	}
+
+	// .football__text-br
+	&__text-br {
+		margin-top: 20px;
+	}
+}
+
+.footer {
+	// .footer__container
+	&__container {}
+
+	// .footer__text
+	&__text {
+	}
+}
+
