@@ -146,6 +146,18 @@ body{
 	}
 	}
 
+	@media (max-width: 455px){
+		&__list {
+			margin-left: 20px;
+	}
+	}
+
+	@media (max-width: 377px){
+		&__list {
+			margin-left: 10px;
+	}
+	}
+
 	&__list li {
 		list-style: disc;
 		color: black;
@@ -218,6 +230,13 @@ body{
 	}
 	}
 
+	@media (max-width: 377px){
+		&__content {
+		background-size: 20%;
+		padding: 10px;
+	}
+	}
+
 	// .football__title
 	&__title {
 		text-align: center;
@@ -225,6 +244,12 @@ body{
 		font-weight: 800;
 		margin-bottom: 15px;
 		text-transform: uppercase;
+	}
+
+	@media (max-width: 377px){
+		&__title {
+		margin-bottom: 10px;
+	}
 	}
 
 	// .football__description
@@ -236,6 +261,20 @@ body{
 		width: 280px;
 		margin: 0 15px 10px 0;
 		float: left;
+	}
+
+	@media (max-width: 480px){
+		&__image {
+		width: 250px;
+	}
+	}
+
+	@media (max-width: 377px){
+		&__image {
+		float: none;
+		margin-right: 0px;
+		width: 100%;
+	}
 	}
 
 	// .football__text
